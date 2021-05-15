@@ -1,0 +1,87 @@
+body {
+    background-color: #2c3e50;
+    color: white; 
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.js-clock {
+    font-size: 4rem;
+    margin-top: 180px;
+    font-weight: 100;
+}
+
+.js-greeting {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.form, .greeting {
+    margin: 0;
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    margin-left: 0;
+    font-size: 2rem;
+}
+
+.js-weather {
+    position: absolute;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+input {
+    padding-top: 4px;
+    display: inline-block;
+    background: 0;
+    border: 0;
+    border-bottom: 2px solid #fff; 
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 2.25em;
+    line-height: 1.2;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+    transition: border-color .2s ease;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.5;
+}
+
+button {
+    background: 0;
+    border: 0;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+#clock {
+    margin: 0;
+}
